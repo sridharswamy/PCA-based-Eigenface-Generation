@@ -1,9 +1,9 @@
 install.packages("pixmap")
 library(pixmap)
 
-#set working directory to the folder containing the images
-#setwd('Set path')
-setwd("D:/1-NCSU/Projects/PCA-based Eigenface Generation/faces-corrected")
+#set path to the 'faces-corrected' folder
+#setwd('Enter path here')
+
 #reading the file list
 file_list <- list.files()
 
